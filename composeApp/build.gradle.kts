@@ -37,8 +37,8 @@ compose.desktop {
         mainClass = "org.jga.jixpay.MainKt"
 
         nativeDistributions {
-            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "org.jga.jixpay"
+            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Exe, TargetFormat.Deb)
+            packageName = "Jixpay"
             packageVersion = "1.0.0"
         }
     }
